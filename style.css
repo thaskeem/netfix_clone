@@ -1,0 +1,262 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+
+.main{
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://assets.nflxext.com/ffe/siteui/vlv3/729ce5c2-d831-436a-8c9d-f38fea0b99b3/web/IN-en-20241209-TRIFECTA-perspective_4aef76eb-7d5b-4be0-93c0-5f67320fd878_small.jpg);
+    background-size: cover;
+    
+    overflow:hidden;
+    background-repeat: no-repeat;
+}
+.header{
+    width: 9.25rem;
+    height: 2rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    display: block;
+    margin-left:10rem;
+    margin-top:1.5rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    
+}
+
+.login_section{
+    height: 45rem;
+    width: 30rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: block;
+    margin: auto;
+    opacity: .9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+        max-width: 450px;
+}
+.heading{
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 3rem;
+    display: block;
+    font-weight: 700;
+
+}
+.form_section{
+    padding: 1rem 1.5rem;
+    padding-left: 4.5rem;
+}
+.email_box{
+    width: 19.4rem;
+    border: 1px solid #cbd0d4;
+    padding: 1rem 0px;
+    margin-right: 1rem;
+    border-radius: 5px;
+    
+}
+.password_box{
+    width: 19.4rem;
+    border: 1px solid #cbd0d4;
+    padding: 1rem 0px;
+    margin-top: 1.2rem;
+    border-radius: 5px;
+}
+.email_box input[type="text"],.password_box input[type="password"]{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    left: 1rem;
+    line-height: 1.5;
+    right: 1rem;
+    top: 1rem;
+    text-overflow: ellipsis;
+    transition-property: top, font-size, line-height;
+    transition-duration: 250ms;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background: none;
+    border:none;
+    padding-left:1rem;
+}
+.email_box:hover{
+    border-color: rgb(241, 241, 174);
+    text-decoration: none;
+}
+
+
+.sign-in-btn{
+    text-decoration: none;
+    background: rgb(193, 17, 25);
+    border-color:none;
+    cursor: pointer;
+    width: 19.4rem;
+    border: 1px solid #cbd0d4;
+    padding: 1rem 0px;
+    margin-top: 1.2rem;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.or{
+    margin-top:1.2rem;
+    color:#fff;
+    font-size:20px;
+    margin-left:9rem;
+}
+.code_btn{
+    width: 19.4rem;
+    border: 1px solid #cbd0d4;
+    padding: 1rem 0px;
+    margin-top: 1.2rem;
+    border-radius: 5px;
+    background: rgba(128, 128, 128, 0.3);
+    text-align: center;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.forgot{
+    margin-top: 1.5rem;
+}
+.forgot a{
+    text-decoration: none;
+    font-size: 18px;
+    
+    color: #fff;
+    
+    margin-left:6rem;
+}
+.chek_box{
+    color:#fff;
+    margin-left:5px;
+    margin-top:1.2rem;
+    
+}
+.heading_two{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top:1rem;
+    display: flex;
+    margin-left:.3rem;
+}
+.sign_up_link{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+.para{
+    color: #fff;
+    font-size: 14px;
+    color: #8c8c8c;
+    font-size: 14px;
+    margin-top: 1.2rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.learn_more{
+    text-decoration: none;
+    color:blue;
+    border:none;
+    background-color: none;
+    
+    
+}
+.hidden_content{
+    visibility: hidden;
+}
+.learn_more:hover{
+    text-decoration: underline;
+}
+.languages{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: none;
+    padding-left: 10rem;
+    padding-top: 15px;
+    
+}
+select{
+    background: none;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width:100px;
+    height:35px;
+    text-align: center;
+          
+}
+.english{
+    color:#fff;
+}
+.hindi{
+    color:#000;
+}
+.english hover{
+    color:#000;
+}
+.hindi hover{
+    color:#fff;
+}
+.footer_section{
+    background-color: #000;
+    height: 20rem;
+    width: 100%;
+    
+}
+.questions,.questions a{
+    color: rgba(255, 255, 255, 0.7);
+    
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+.question_call{
+    
+    padding-top:160px;
+    padding-left:10rem;
+}
+.ph_no{
+     text-decoration: none;
+}
+.ph_no:hover{
+    text-decoration: underline;
+}
+.services {
+    
+    width:70rem;
+    display: flex;
+}
+.services ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.services ul li{
+    list-style: none;
+    margin: .3rem 1.5rem .3rem 0px;
+}
+.services ul li a{
+   
+    width: 100%;
+    font-size: 0.875rem;
+    font-weight: 400;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.7);
+    
+    flex-direction: row;
+
+    margin-top: 2rem;
+    margin-left: 10rem;
+    flex-wrap: wrap;
+}
+
+
+
